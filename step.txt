@@ -10,3 +10,5 @@ db.createUser(
 
 rs.initiate()
 rs.status()
+
+mongo --port 37018 --tls  --tlsAllowInvalidCertificates --host database.fluddi.com --tlsCertificateKeyFile /opt/mongodb/certificate.pem -u admin --authenticationDatabase admin
