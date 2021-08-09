@@ -15,3 +15,4 @@ mongod --config ./config/rs0-3.conf
 mongod --config ./config/cf0.conf
 mongod --config ./config/cf1.conf
 mongod --config ./config/cf2.conf
+mongos --config ./config/m1.conf
